@@ -7,14 +7,21 @@
 </head>
 <body>
 
-  <form th:action="@{/processForm}" method="GET">
+<form th:action="@{/processForm}" method="GET">
 
-      <input type="text" name="studentName"
-             placeholder="What's your name?" />
+    <input type="text" name="studentName"
+           placeholder="What's your name?" />
 
-      <input type="submit" />
+    <br><br>
 
-  </form>
+    <input type="text" name="favoriteSport"
+           placeholder="What's your favorite sport?" />
+
+    <br><br>
+
+    <input type="submit" />
+
+</form>
 
 </body>
 </html>
