@@ -20,6 +20,11 @@ public class DemoController {
     public String getDailyWorkout() {
         return myCoach.getDailyWorkout();
     }
+
+    @GetMapping("/basketball")
+    public String getBasketball() {
+        return "Tennis is my favorite basketball.";
+    }
 }
 
 
